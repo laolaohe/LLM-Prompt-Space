@@ -31,20 +31,4 @@ Code Injection（代码注入攻击）
 
 日志与统计分析：记录攻击尝试和防御效果，用于优化策略
 
-项目结构
-LLM-Prompt-Injection/
-│
-├─ attacks/              # 攻击模块源码
-│  ├─ direct_injection.py
-│  ├─ jailbreak.py
-│  ├─ indirect.py
-│  └─ code_injection.py
-│
-├─ defense/              # 防御模块源码
-│  ├─ filter_check.py
-│  └─ defense_core.py
-│
-├─ requirements.txt      # Python依赖
-└─ README.md             # 项目说明
-
 请确保你已正确配置你的 API Key
