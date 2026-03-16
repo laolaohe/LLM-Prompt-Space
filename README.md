@@ -1,6 +1,8 @@
 📝 项目简介
 LLM-Prompt-Space 是一个用于模拟、测试和防御大语言模型（LLM）提示词注入攻击的实验平台。本项目紧跟 OWASP Top 10 for LLM Applications 行业标准，重点针对 LLM01: Prompt Injection 风险，构建了一套多层级的“纵深防御（Defense-in-Depth）”体系。
 
+博客：https://blog.csdn.net/2301_80968137/article/details/159014150?spm=1001.2014.3001.5502
+
 通过自动化脚本，用户可以测试多种攻击载荷，并验证不同防御模块（如 XML 封装、随机令牌、语义审计等）在真实场景下的拦截效果。
 
 🛡️ 防御架构 
@@ -59,7 +61,7 @@ Plaintext
 
 Bash
 
-git clone https://github.com/laolaohe/LLM-Prompt-Injection—.git
+git clone https://github.com/laolaohe/LLM-Prompt-Space.git
 
 配置环境
 
