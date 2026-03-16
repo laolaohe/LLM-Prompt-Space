@@ -36,14 +36,22 @@ Recursive Injection：测试防御模块在多轮对话/多级调用中的韧性
 
 
 📂 项目结构
+
 Plaintext
+
 .
 ├── main.py              # 实验平台主入口，负责攻击模拟与防御开关控制
+
 ├── defense.py           # 核心防御模块（包含 XML 封装、过滤、审计等）
+
 ├── llm_api.py           # LLM 调用接口封装
+
 ├── attacks/             # 攻击载荷库
+
 │   ├── direct_injection.py
+
 │   └── ... 
+
 └── README.md
 
 🛠️ 如何开始
